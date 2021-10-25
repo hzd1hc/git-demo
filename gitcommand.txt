@@ -6,3 +6,4 @@ git status -> get status of files
 git tesst
 
 git newb is added
+git merge
