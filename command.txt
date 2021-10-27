@@ -1,10 +1,12 @@
 https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
 file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/index.html
 
+ls
 git init
 git version
 git status
 git log
+git clone <url>
 git add <files>
 git commit -m <message>
 git merge <branch>
