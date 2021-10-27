@@ -9,17 +9,20 @@ git init				|  initialize .git
 git version				|  get git version
 git status				|  get staged files to commit
 git log					|  get git history
-git clone <url>				|  cloning files from remote repository
+git clone <url>				|  cloning files from remote repo
 git add <files>				|  add files to commit
 git commit -m <message>			|  commit the changes
 git merge <branch>			|  merge changes from other branches to current branch
-git push -u origin <branch>		|  push changes to remote repository
-git pull				|  pull changes from remote repository to local repository
-git remote add origin <link>		|  add changes to remote repository for the first time
+git push -u origin <branch>		|  push changes to remote repo
+git pull				|  pull changes from remote repo to local repo
+git remote add origin <link>		|  add changes to remote repo for the first time
 git branch <name>			|  create new branch
 git checkout <branch>			|  move to the branch
-git remote -v				|  get remote repository which will store the changes
+git remote -v				|  get remote repo which will store the changes
 git diff				|  get difference between two branch
 git reset				|  unstaged changes which not wanted to commit
 git commit -am				|  combination of git add and git commit
-
+git fetch <url>				|  to fetch the remote repo
+git fetch <branch url> <branch_name>	|  to fetch a specific branch
+git fetch -all				|  to fetch all branches
+git fetch origin			|  to synchronize remote repo to local repo
