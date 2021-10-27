@@ -1,20 +1,25 @@
 https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
 file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/index.html
 
-ls
-git init
-git version
-git status
-git log
-git clone <url>
-git add <files>
-git commit -m <message>
-git merge <branch>
-git push -u origin <branch>
-git pull
-git remote add origin <link>
-git branch <name>
-git checkout <branch>
-git remote -v
+*******************************************************************************************************
+*		command			|			description		   	      *
+*******************************************************************************************************
+ls					|  list all artifacts in current directory
+git init				|  initialize .git
+git version				|  get git version
+git status				|  get staged files to commit
+git log					|  get git history
+git clone <url>				|  cloning files from remote repository
+git add <files>				|  add files to commit
+git commit -m <message>			|  commit the changes
+git merge <branch>			|  merge changes from other branches to current branch
+git push -u origin <branch>		|  push changes to remote repository
+git pull				|  pull changes from remote repository to local repository
+git remote add origin <link>		|  add changes to remote repository for the first time
+git branch <name>			|  create new branch
+git checkout <branch>			|  move to the branch
+git remote -v				|  get remote repository which will store the changes
+git diff				|  get difference between two branch
+git reset				|  unstaged changes which not wanted to commit
 
 
