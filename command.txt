@@ -7,7 +7,9 @@ file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/index.html
 cd					|  change directory
 cd ../					|  back to upper directory
 cd ../folder				|  move to folder with same level
-ls					|  list all artifacts in current directory
+mkdir <folder name>			|  create new folder
+ls					|  list all items in current directory
+ls -a					|  list all hidden items
 git init				|  initialize .git
 git version				|  get git version
 git status				|  get staged files to commit
